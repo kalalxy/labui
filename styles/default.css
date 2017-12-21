@@ -1,4 +1,18 @@
 ul>li>ul>li>a{color:black !important;}
 .none-background{background:none !important;}
 #topnav li a{height:auto !important;}
-#dropdown-ul{width: 125px !important;}
+.dropdown-ul1{
+    display: inline-block;
+    position: absolute;
+    width: 27rem;
+    top: 210%;
+    left: -140%;
+}
+.dropdown-ul2{    
+    display: inline-block;
+    position: absolute;
+    width: 25rem;
+    top: 210%;
+    left: -126%;
+}
+.display{display: none;}
