@@ -12,19 +12,20 @@
 <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="styles/default.css"/>
+<script src="scripts/default.js"></script>
 <!-- End Featured Slider Elements -->
 </head>
 <body id="top">
 <div class="wrapper row1">
   <div id="topnav">
     <ul>
-      <li class="active"><a href="index.html"><strong>首页</strong></a></li>
+      <li id="index-parent" class="active"><a href="index.html"><strong>首页</strong></a></li>
 
-      <li class="dropdown">
+      <li class="dropdown" id="about-parent">
         <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
           <strong>关于我们</strong>
         </a>
-        <div class="dropdown-ul1">
+        <div id="about-child" class="display dropdown-ul1">
             <span><a href="#" class="none-background">团队简介</a></span>
             <span><a href="#" class="none-background">团队宗旨</a></span>
             <span><a href="#" class="none-background">团队人员</a></span>
@@ -32,11 +33,11 @@
         </div>
       </li>
 
-      <li class="dropdown">
+      <li class="dropdown" id="academic-parent">
         <a href="javascript:void(0)"  class="dropdown-toggle" data-toggle="dropdown">
           <strong>学术研究</strong>
         </a>
-        <div class="display dropdown-ul2">
+        <div class="display dropdown-ul2" id="academic-child">
           <span><a href="#" class="none-background">论文发表</a></span>
           <span><a href="#" class="none-background">科研成果</a></span>
           <span><a href="#" class="none-background">课题研究</a></span>
@@ -44,27 +45,35 @@
         </div>
       </li>
 
-      <li>
-        <a href="3-columns.html">
+      <li class="dropdown" id="related-parent">
+        <a href="javascript:void(0)"  class="dropdown-toggle" data-toggle="dropdown">
           <strong>相关资源</strong>
         </a>
+        <div class="display dropdown-ul3" id="related-child">
+          <span><a href="#" class="none-background">导师资源</a></span>
+          <span><a href="#" class="none-background">资源下载</a></span>
+        </div>
       </li>
-      <li>
-        <a href="portfolio.html">
+
+      <li id="join-us-parent">
+        <a href="#">
           <strong>人才需求</strong>
         </a>
       </li>
-      <li>
-        <a href="gallery.html">
+
+      <li id="teaching-parent">
+        <a href="#">
           <strong>教学课堂</strong>
         </a>
       </li>
-      <li>
+
+      <li id="wiki-parent">
         <a href="#">
           <strong>共享问题集</strong>
         </a>
       </li>
-      <li class="last">
+
+      <li id="worklog-parent" class="last">
         <a href="#">
           <strong>工作日志</strong>
         </a>

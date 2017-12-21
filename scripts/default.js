@@ -1,3 +1,42 @@
 $(document).ready(function(){
-    
+    $("#about-parent").hover(function(){
+        $("#about-child").removeClass("display");
+        $("#academic-child").addClass("display");
+        $("#related-child").addClass("display");
+    });
+    $("#academic-parent").hover(function(){
+        $("#academic-child").removeClass("display");
+        $("#about-child").addClass("display");
+        $("#related-child").addClass("display");
+    });
+    $("#related-parent").hover(function(){
+        $("#related-child").removeClass("display");
+        $("#about-child").addClass("display");
+        $("#academic-child").addClass("display");
+    });
+    $("#join-us-parent").hover(function(){
+        $("#about-child").addClass("display");
+        $("#academic-child").addClass("display");
+        $("#related-child").addClass("display");
+    });
+    $("#teaching-parent").hover(function(){
+        $("#about-child").addClass("display");
+        $("#academic-child").addClass("display");
+        $("#related-child").addClass("display");
+    });
+    $("#wiki-parent").hover(function(){
+        $("#about-child").addClass("display");
+        $("#academic-child").addClass("display");
+        $("#related-child").addClass("display");
+    });
+    $("#worklog-parent").hover(function(){
+        $("#about-child").addClass("display");
+        $("#academic-child").addClass("display");
+        $("#related-child").addClass("display");
+    });
+    $("#index-parent").hover(function(){
+        $("#about-child").addClass("display");
+        $("#academic-child").addClass("display");
+        $("#related-child").addClass("display");
+    });
 });
