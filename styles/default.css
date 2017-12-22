@@ -23,3 +23,8 @@ ul>li>ul>li>a{color:black !important;}
     left: -126%;
 }
 .display{display: none;}
+#header{display:inline-block;left: 15.2rem;}
+#login-span{float:right;margin-right:3rem;margin-top:2rem;}
+#sitesearch{background:none;}
+#sitesearch-textbox{background:rgba(244, 251, 244, 0.84) !important;padding-left: 5px !important;padding-right:5px !important;margin-left:0px !important;margin-right: 0px !important;}
+#sitesearch-button{background:#edf903e3 !important;}
